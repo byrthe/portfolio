@@ -27,8 +27,13 @@ export default {
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
-  ],
+    '~/assets/scss/main.scss',
+    '@fortawesome/fontawesome-free/css/all.css'
 
+  ],
+  styleResources: {
+
+  },
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
   ],
@@ -55,6 +60,14 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
+    loaders: {
+      sass: {
+          implementation: require('sass'),
+      },
+      scss: {
+          implementation: require('sass'),
+      },
+    }  
   },
   server: {
     port: 8000, // default: 3000

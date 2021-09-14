@@ -2,6 +2,7 @@
     <div>
        <Getlost />
        <Tri />
+       <Skillbank />
     </div>
 </template>
 

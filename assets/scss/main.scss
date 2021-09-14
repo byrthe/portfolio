@@ -1,0 +1,117 @@
+// FONTS
+@font-face {
+    font-family: "Authentic-60";
+    src: url("../fonts/AUTHENTICSans-60.woff2") format("woff2"),
+         url("../fonts/AUTHENTICSans-60.woff") format("woff");
+}
+@font-face {
+    font-family: "Authentic-90";
+    src: url("../fonts/AUTHENTICSans-90.woff2") format("woff2"),
+         url("../fonts/AUTHENTICSans-90.woff") format("woff");
+}
+@font-face {
+    font-family: "Authentic-130";
+    src: url("../fonts/AUTHENTICSans-130.woff2") format("woff2"),
+         url("../fonts/AUTHENTICSans-130.woff") format("woff");
+}
+@font-face {
+font-family: "Authentic-150";
+src: url("../fonts/AUTHENTICSans-150.woff2") format("woff2"),
+        url("../fonts/AUTHENTICSans-150.woff") format("woff");
+}
+
+$f60: 'Authentic-60';
+$f90: 'Authentic-90';
+$f130: 'Authentic-130';
+$f150: 'Authentic-150';
+
+$thatblue: rgb(0,92,255);
+// GENERAL
+body{
+    font-family: $f90;
+    font-size: 18px;
+    letter-spacing: 0.03em;
+    color: white;
+    margin:0;
+    padding: 10px;
+}
+.col{
+    // border: 1px solid red!important;
+    position: relative;
+}
+.row{
+    // border: 1px solid blue!important;
+}
+.blue{
+    color:$thatblue;
+}
+a, a:visited{
+    color: rgb(64, 134, 255);
+    cursor: pointer;
+}
+a:hover{
+    color: rgb(64, 134, 255);
+    cursor: pointer;
+    text-decoration: none;
+}
+.smallcaps{
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-family: $f60;
+}
+.caption{
+    font-family: $f60;
+    font-size: 0.7em;
+    letter-spacing: 0.03em;
+    font-style: italic;
+    line-height: 1.25em;
+    margin-top: 5px;
+    color: lightgrey;
+}
+h2{
+    font-family: $f130;
+    font-size: 1.5em;
+    letter-spacing: 0.08em;
+    // color: $thatblue;
+    text-transform: uppercase;
+}
+hr{
+    border: 0.05em solid grey!important;
+}
+// SIDE
+.side{
+    border-top: 1px solid grey;
+    padding: 15px 0 0 0; 
+}
+.bio{
+    font-family: $f60!important;
+}
+.biopic{
+    padding:0 5% 0 0;
+    width: 75%;
+    margin-top: 50px;
+}
+ul.links{
+    list-style: none;
+    margin:25px 0 0 0;
+    padding:0;
+}
+.links li{
+    margin-bottom: 5px;
+}
+.links i{
+    margin-right: 10px;
+}
+// PROJECTS
+.project{
+    border-top: 1px solid grey;
+    padding: 15px 0;
+    background-color: black;
+}
+.desc{
+    font-size: 1em;
+    font-family: $f60;
+    letter-spacing: 0.04em;
+
+}

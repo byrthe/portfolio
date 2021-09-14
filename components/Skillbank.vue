@@ -1,5 +1,4 @@
 <template>
-
     <div class="b-row project">
         <b-carousel
         id="carousel-1"
@@ -8,18 +7,16 @@
         controls
         background="transparent"
         class="d-inline-block"
+        img-height="500px"
         @sliding-start="onSlideStart"
         @sliding-end="onSlideEnd"
         >
-            <div class="carousel-inner" role="listbox">
-                <b-carousel-slide img-src="@/static/+32_triPostal_insta.png"></b-carousel-slide>
-                <b-carousel-slide img-src="@/static/+32_triPostal_fb.png"></b-carousel-slide>
-            </div>
-                    
+            <b-carousel-slide img-src="@/static/skillbank1.png"></b-carousel-slide>
+            <b-carousel-slide img-src="@/static/skillbank2.png"></b-carousel-slide>      
         </b-carousel>
-        <h2>+32</h2>
+        <h2>Skill Bank</h2>
         <p class="desc">
-            A digital flyer (for facebook and instagram) for the +32 collective, hosting a night at Tri Postale in Brussels. The flyer should give an impression of what you can find in the bottom of your bag after a +32 party night. The event was at full capacity :-) 
+            A prototype for a skill sharing website. I made this website as a try-out project, to learn how to work with databases (sql3) and node.js. The site is currently not deployed nor responsive, but the repo can be found here on <a href="https://github.com/byrthe/skillBankApp" target="blank">github</a>. 
         </p>
     </div>
 </template>
