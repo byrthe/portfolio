@@ -27,9 +27,13 @@ $f150: 'Authentic-150';
 
 $thatblue: rgb(0,92,255);
 // GENERAL
-body{
-    font-family: $f90;
+html{
     font-size: 18px;
+}
+body{
+    background-color: black;
+    font-family: $f90;
+    font-size: 1rem;
     letter-spacing: 0.03em;
     color: white;
     margin:0;
@@ -38,6 +42,8 @@ body{
 .col{
     // border: 1px solid red!important;
     position: relative;
+    margin-right:0;
+    padding-right:0;
 }
 .row{
     // border: 1px solid blue!important;
@@ -62,7 +68,7 @@ a:hover{
 }
 .caption{
     font-family: $f60;
-    font-size: 0.7em;
+    font-size: 0.6em;
     letter-spacing: 0.03em;
     font-style: italic;
     line-height: 1.25em;
@@ -76,9 +82,7 @@ h2{
     // color: $thatblue;
     text-transform: uppercase;
 }
-hr{
-    border: 0.05em solid grey!important;
-}
+
 // SIDE
 .side{
     border-top: 1px solid grey;
@@ -113,5 +117,19 @@ ul.links{
     font-size: 1em;
     font-family: $f60;
     letter-spacing: 0.04em;
+    color: rgba(221, 218, 218, 0.933);
 
+}
+
+// CAROUSEL
+
+.carousel-control-prev-icon {
+    background-image: url('~/static/arrow-left.png');
+    width: 40px;
+    height: 40px;
+}
+.carousel-control-next-icon {
+    background-image: url('~/static/arrow-right.png');
+    width: 40px;
+    height: 40px;
 }

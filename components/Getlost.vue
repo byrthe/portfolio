@@ -1,5 +1,5 @@
 <template>
-    <div class="b-row project">
+    <div class="b-row project" style="border-top:none!important">
         <b-carousel
         id="carousel-1"
         v-model="slide"
