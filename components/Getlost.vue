@@ -1,5 +1,5 @@
 <template>
-    <div class="b-row project" style="border-top:none!important">
+    <div class="b-row project" style="border-top:none!important; padding-top:0;">
         <b-carousel
         id="carousel-1"
         v-model="slide"
@@ -16,13 +16,19 @@
             <b-carousel-slide img-src="@/static/getlost-artroute5.png"></b-carousel-slide> 
             <b-carousel-slide img-src="@/static/getlost-artroute1.png"></b-carousel-slide>
             <b-carousel-slide img-src="@/static/getlost-artroute2.png"></b-carousel-slide>
-                 
+                
         </b-carousel>
-        <h2>Get Lost - art route</h2>
-        <p class="desc">
-            Full visual identity for art route Get Lost consisting of posters, catalogues, website and promotional material. The identity is based on the high rises that make up the decor for this art route, and is playing with the shift in focus of looking through a window or seeing the reflections in it. <br>
-            Design in collaboration with Karoline Swiezyinski. Development in collaboration with Joel Galvez. Printing by Coers&Roest.
-        </p>
+        <div class="wrap">
+            <h2>Get Lost - art route</h2>
+            <p class="desc">
+                Full visual identity for art route Get Lost consisting of posters, catalogues, website and promotional material. The identity is based on the high rises that make up the decor for this art route, and is playing with the shift in focus of looking through a window or seeing the reflections in it. <br>
+                Design in collaboration with Karoline Swiezyinski. Development in collaboration with Joel Galvez. Printing by Coers&Roest.
+            </p>
+            <div class="tags">
+                <p class="tag">design</p>
+                <p class="tag">development</p>
+            </div>
+        </div>
     </div>
 </template>
 

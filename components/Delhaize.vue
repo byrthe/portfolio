@@ -11,16 +11,17 @@
         @sliding-start="onSlideStart"
         @sliding-end="onSlideEnd"
         >
-            <b-carousel-slide img-src="@/static/skillbank1.png"></b-carousel-slide>
-            <b-carousel-slide img-src="@/static/skillbank2.png"></b-carousel-slide>      
+            <b-carousel-slide img-src="@/static/delhaizebio3.png"></b-carousel-slide>
+            <b-carousel-slide img-src="@/static/delhaize365-2.png"></b-carousel-slide>
+                
         </b-carousel>
         <div class="wrap">
-            <h2>Skill Bank</h2>
+            <h2>Delhaize Bio and 365</h2>
             <p class="desc">
-                A prototype for a skill sharing website. I made this website as a try-out project, to learn how to work with databases (sqlite3) and node.js, and less focussing on (interaction) design. The site is currently not deployed nor responsive, but the repo is available here on <a href="https://github.com/byrthe/skillBankApp" target="blank">github</a>. 
+                In 2019 and 2020 I was working at <a href="https://www.sunny-side-up.be" target="blank">Sunny Side Up</a> studio, where I mostly worked on packaging design and pre-press for Delhaize Bio and Delhaize 365 products. Following a strict guideline and versioning system set out by Delhaize marketing team. <br>During that period I occasionally worked on some book design and photo-editing for Sunny Side Up's other projects too.
             </p>
             <div class="tags">
-                <p class="tag">development</p>
+                <p class="tag">design</p>
             </div>
         </div>
     </div>
@@ -46,4 +47,5 @@ export default {
 </script>
 
 <style>
+
 </style>

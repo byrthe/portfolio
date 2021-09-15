@@ -1,5 +1,5 @@
 <template>
-    <div class="b-row project">
+    <div class="b-row project" style="border-top:none!important; padding-top:0;">
         <b-carousel
         id="carousel-1"
         v-model="slide"
@@ -11,16 +11,17 @@
         @sliding-start="onSlideStart"
         @sliding-end="onSlideEnd"
         >
-            <b-carousel-slide img-src="@/static/skillbank1.png"></b-carousel-slide>
-            <b-carousel-slide img-src="@/static/skillbank2.png"></b-carousel-slide>      
+            <b-carousel-slide img-src="@/static/bday2.png"></b-carousel-slide>
+            <b-carousel-slide img-src="@/static/bday1.png"></b-carousel-slide>
+                
         </b-carousel>
         <div class="wrap">
-            <h2>Skill Bank</h2>
+            <h2>Queer of Hearts</h2>
             <p class="desc">
-                A prototype for a skill sharing website. I made this website as a try-out project, to learn how to work with databases (sqlite3) and node.js, and less focussing on (interaction) design. The site is currently not deployed nor responsive, but the repo is available here on <a href="https://github.com/byrthe/skillBankApp" target="blank">github</a>. 
+                Am invitation shaped like a playing card for my own damn 30th birthday.
             </p>
             <div class="tags">
-                <p class="tag">development</p>
+                <p class="tag">design</p>
             </div>
         </div>
     </div>
@@ -46,4 +47,5 @@ export default {
 </script>
 
 <style>
+
 </style>

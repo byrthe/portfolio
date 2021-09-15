@@ -1,8 +1,12 @@
 <template>
    <div>
        <Getlost />
-       <Tri />
        <Skillbank />
+       <Delhaize />
+       <Tri />
+       <Posters />
+       <Sotu />
+       <!-- <Bday /> -->
     </div>
 </template>
 

@@ -11,16 +11,18 @@
         @sliding-start="onSlideStart"
         @sliding-end="onSlideEnd"
         >
-            <b-carousel-slide img-src="@/static/skillbank1.png"></b-carousel-slide>
-            <b-carousel-slide img-src="@/static/skillbank2.png"></b-carousel-slide>      
+            <b-carousel-slide img-src="@/static/dziri1.png"></b-carousel-slide>
+            <b-carousel-slide img-src="@/static/dziri2.png"></b-carousel-slide>
+            <b-carousel-slide img-src="@/static/dziri3.png"></b-carousel-slide> 
+                
         </b-carousel>
         <div class="wrap">
-            <h2>Skill Bank</h2>
+            <h2>Dziri</h2>
             <p class="desc">
-                A prototype for a skill sharing website. I made this website as a try-out project, to learn how to work with databases (sqlite3) and node.js, and less focussing on (interaction) design. The site is currently not deployed nor responsive, but the repo is available here on <a href="https://github.com/byrthe/skillBankApp" target="blank">github</a>. 
+                Poster proposal for dj and producer Dziri. Dziri asked for tour posters that would involve an abstraction of an eye. I proposed these sequential series of iris patterns that would accumulate in the poster design over time. Unfortunately the project was not excecuted.
             </p>
             <div class="tags">
-                <p class="tag">development</p>
+                <p class="tag">design</p>
             </div>
         </div>
     </div>
@@ -46,4 +48,5 @@ export default {
 </script>
 
 <style>
+
 </style>

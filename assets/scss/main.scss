@@ -45,8 +45,8 @@ body{
     margin-right:0;
     padding-right:0;
 }
-.row{
-    // border: 1px solid blue!important;
+.wrap{
+    padding: 0 35px;
 }
 .blue{
     color:$thatblue;
@@ -90,6 +90,7 @@ h2{
 }
 .bio{
     font-family: $f60!important;
+    font-size: 0.8em;
 }
 .biopic{
     padding:0 5% 0 0;
@@ -118,7 +119,20 @@ ul.links{
     font-family: $f60;
     letter-spacing: 0.04em;
     color: rgba(221, 218, 218, 0.933);
-
+}
+.tags{
+    display: flex;
+    //justify-content: space-between;
+}
+.tag{
+    padding: 5px 5px 4px 5px;
+    margin-right: 10px;
+    border: 1px solid grey;
+    color: grey;
+    font-size: 0.6em;
+    text-transform: uppercase;
+    width: 120px;
+    text-align: center;
 }
 
 // CAROUSEL

@@ -17,10 +17,15 @@
             </div>
                     
         </b-carousel>
-        <h2>+32</h2>
-        <p class="desc">
-            A digital flyer (for facebook and instagram) for the +32 collective, hosting a night at Tri Postale in Brussels. The flyer should give an impression of what you can find in the bottom of your bag after a +32 party night. The event was at full capacity :-) 
-        </p>
+        <div class="wrap">
+            <h2>+32</h2>
+            <p class="desc">
+                A digital flyer (for facebook and instagram) for the +32 collective, hosting a night at Tri Postal in Brussels. The flyer should give an impression of what you can find in the bottom of your bag after a +32 party night. The event was at full capacity :-) 
+            </p>
+            <div class="tags">
+                <p class="tag">design</p>
+            </div>
+        </div>
     </div>
 </template>
 
