@@ -14,6 +14,10 @@
             <b-carousel-slide img-src="@/static/delhaizebio3.png"></b-carousel-slide>
             <b-carousel-slide img-src="@/static/delhaize365-2.png"></b-carousel-slide>
                 
+            <!-- <b-carousel-slide><img-lazy slot="img" class="d-block img-fluid w-100" width="1024" height="480"
+             src="@/static/delhaize3.png" alt="image slot"></img-lazy></b-carousel-slide>
+            <b-carousel-slide><img-lazy slot="img" class="d-block img-fluid w-100" width="1024" height="480"
+             src="@/static/delhaize1.png" alt="image slot"></img-lazy></b-carousel-slide> -->
         </b-carousel>
         <div class="wrap">
             <h2>Delhaize Bio and 365</h2>

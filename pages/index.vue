@@ -5,6 +5,7 @@
        <Delhaize />
        <Tri />
        <Posters />
+       <Krisis />
        <Sotu />
        <!-- <Bday /> -->
     </div>
@@ -12,6 +13,10 @@
 
 <script>
 export default {
-  
+  lazyComponents: [
+    'Getlost',
+    'Skillbank',
+    'Tri',
+  ],
 }
 </script>

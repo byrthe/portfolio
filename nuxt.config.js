@@ -47,6 +47,9 @@ export default {
     'bootstrap-vue/nuxt',
     // https://go.nuxtjs.dev/axios
     '@nuxtjs/axios',
+    // https://www.npmjs.com/package/@netsells/nuxt-bootstrap-vue-lazyloader?activeTab=readme
+    '@netsells/nuxt-bootstrap-vue-lazyloader',
+  
   ],
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
